@@ -14,3 +14,31 @@ Características
 • Pipeline: operações em streams retornam novas streams. Então é possível criar uma cadeia de operações (fluxo de processamento).  
 
 Doc: http://www.oracle.com/technetwork/pt/articles/java/streams-api-java-8-3410098-ptb.html
+
+Operações intermediárias  
+• filter  
+• map  
+• flatmap  
+• peek  
+• distinct  
+• sorted  
+• skip  
+• limit (*)  
+
+short-circuit  
+Operações terminais  
+• forEach  
+• forEachOrdered  
+• toArray  
+• reduce  
+• collect  
+• min  
+• max  
+• count  
+• anyMatch ()  
+• allMatch ()  
+• noneMatch ()  
+• findFirst ()  
+• findAny (*)  
+
+short-circuit  
